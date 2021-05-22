@@ -1,6 +1,6 @@
 <template>
   <div class="block" v-if="showBlock" @click="stopTimer">
-    Click Fast!
+    CLICK FAST!
   </div>
 </template>
 
@@ -38,13 +38,15 @@ export default {
 
 <style>
   .block {
-    width: 400px;
+    width: 25%;
+    height: 10%;
     border-radius: 20px;
-    background:  #0faf87;;
+    background:  #0f5aaf;;
     color: white;
     text-align: center;
     padding: 100px 0;
     margin: 40px auto;
+    font-size:150%
   }
 </style>
 
